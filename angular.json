@@ -24,7 +24,32 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "src/assets/lib/chart",
+                "output": "/assets/lib/chart"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets/lib/easing",
+                "output": "/assets/lib/easing"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets/lib/waypoints",
+                "output": "/assets/lib/waypoints"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets/lib/owlcarousel",
+                "output": "/assets/lib/owlcarousel"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets/lib/tempusdominus",
+                "output": "/assets/lib/tempusdominus"
+              }
             ],
             "styles": [
               "src/styles.css"
